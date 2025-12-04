@@ -1,0 +1,182 @@
+/* ====== GENERAL STYLES ====== */
+body {
+  background-color: #0f171e;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+/* ====== NAVBAR STYLES ====== */
+.navbar {
+  background-color: #1a242f !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 24px;
+  color: #e50914 !important;
+  letter-spacing: 1px;
+}
+
+.navbar-brand i {
+  margin-right: 10px;
+}
+
+.main-container {
+  padding: 40px 0;
+}
+
+.card-custom {
+  background-color: #1a242f;
+  border: 1px solid #2c3e50;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+  background-color: #e50914;
+  color: white;
+  font-weight: 700;
+  border-bottom: none;
+  padding: 15px;
+}
+
+.card-header.edit {
+  background-color: #d69e2e;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.table-dark-custom {
+  background-color: #1a242f;
+  color: #e2e8f0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.table-dark-custom th {
+  background-color: #2d3748;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  border-bottom: 2px solid #4a5568;
+  padding: 15px;
+}
+
+.table-dark-custom td {
+  border-color: #2d3748;
+  padding: 15px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #2d3748;
+  color: white;
+}
+
+.form-label {
+  color: #a0aec0;
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+  color: white;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #2d3748;
+  color: white;
+  box-shadow: 0 0 0 0.25rem rgba(229, 9, 20, 0.25);
+}
+
+.form-control:focus {
+  border-color: #e50914;
+}
+
+.form-select:focus {
+  border-color: #e50914;
+}
+
+.form-control.edit:focus,
+.form-select.edit:focus {
+  border-color: #d69e2e;
+  box-shadow: 0 0 0 0.25rem rgba(214, 158, 46, 0.25);
+}
+
+.btn-add {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-add:hover {
+  background-color: #b20710;
+  color: white;
+}
+
+.btn-save {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-save:hover {
+  background-color: #b20710;
+  color: white;
+}
+
+.btn-update {
+  background-color: #d69e2e;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-update:hover {
+  background-color: #b7791f;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #4a5568;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-cancel:hover {
+  background-color: #2d3748;
+  color: white;
+}
+
+.btn-action {
+  margin: 0 2px;
+}
+
+.text-gold {
+  color: #f5c518;
+}
+
+.text-green {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.icon-box {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #e50914;
+}
+
+
+.overflow-hidden {
+  overflow: hidden;
+}
